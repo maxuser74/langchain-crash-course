@@ -48,7 +48,9 @@ tools = [
 prompt = hub.pull("hwchase17/structured-chat-agent")
 
 # Initialize a ChatOpenAI model
-llm = ChatOpenAI(model="gpt-4o")
+#llm = ChatOpenAI(model="gpt-4o")
+llm = ChatOpenAI(model="gpt-3.5-turbo")
+
 
 # Create a structured Chat Agent with Conversation Buffer Memory
 # ConversationBufferMemory stores the conversation history, allowing the agent to maintain context across interactions
